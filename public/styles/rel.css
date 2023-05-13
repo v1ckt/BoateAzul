@@ -1,0 +1,55 @@
+.logoutbtn {
+    position: fixed;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90vw;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-height: 80vh;
+    text-align: center;
+}
+thead {
+    background-color: rgba(0,0,0,.35);
+    display: table;
+}
+
+thead th:first-child {
+    width: 2vw;
+}
+thead th:nth-child(2) {
+    width: 12vw;
+}
+thead th:nth-child(3) {
+    width: 7vw;
+}
+thead th:nth-child(4) {
+    width: 4vw;
+}
+thead th:nth-child(5) {
+    width: 39vw;
+}
+thead th:last-child {
+    width: 9vw;
+
+}
+
+tbody {
+    background-color: rgba(0,0,0,.2);
+    overflow: auto;
+}
+tbody td:last-child {
+    width: 8vw;
+}
+tbody tr td:nth-child(5) {
+    text-align: left;
+}
+th {
+    padding: 1rem .5rem;
+}
+td {
+    padding: 1rem .5rem;
+}

@@ -1,0 +1,14 @@
+.formheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.formheader h2 {
+    font-size: 1.2rem;
+}
+.formheader img {
+    width: 5rem;
+    height: 5rem;
+}
